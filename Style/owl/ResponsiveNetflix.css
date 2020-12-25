@@ -1,0 +1,33 @@
+@media screen and (max-width:700px){
+    header .container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .principal_x{
+        background: linear-gradient(rgba(0,0,0,.52),rgba(0,0,0,.52)100%), url('/IMG/one-piece-capa2.jpg');
+        height: 600px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .box-film{
+        height: 50%;
+        width: 50%;
+        display: block;
+    }
+
+    .button{
+        margin-top: 5px;
+        width: 190px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .description{
+        width: 50%;
+    }
+}

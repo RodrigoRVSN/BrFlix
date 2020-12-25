@@ -1,0 +1,42 @@
+.series{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.logo{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.films{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.animes{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.fa-search{
+    margin-right: 20px;
+}
+
+.fa-home{
+    justify-content: center;
+    margin-top: 10px;
+    color: red;
+    font-size: 100px;
+}
+
+.lista{
+    margin-left: 30px;
+    margin-top: 20px;
+}

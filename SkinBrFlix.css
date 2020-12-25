@@ -1,0 +1,120 @@
+:root{
+    --primary:black;
+    --secondary:rgb(236, 18, 18);
+    --terciary: rgb(206, 197, 197);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*Base*/
+
+body{
+    background-color: var(--primary);
+    color: white;
+}
+
+header .container{
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--secondary);
+    font-size: 50px;
+}
+
+header nav a{
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--terciary);
+    margin-right: 20px;
+}
+
+header nav a:hover{
+    color: white
+}
+
+/*Principal*/
+.principal_x{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('IMG/one_piece_video.gif');
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.principal_x .description{
+    margin-top: 10px;
+    margin-bottom: 38px;
+    font-size: 28px;
+}
+
+.principal_x .title{
+    margin-top: 15%;
+    font-size: 50px;
+}
+
+.button{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-right: 20px;
+    font-size: 27px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.button:hover{
+    background-color: white;
+    color: var(--primary);
+    border: 5px solid var(--secondary);
+    zoom: 110%;
+}
+
+.button:active{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.button i{
+    margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.principal_x .container{
+    width: 70%;
+}
+
+.box-film{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.item:hover{
+    cursor: pointer;
+    border: 5px solid var(--secondary);
+}
+
+.recommends{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
